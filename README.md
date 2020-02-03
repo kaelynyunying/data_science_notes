@@ -1,2 +1,2 @@
 # data_science_learning_journey
-keep learning!
+Not perfect yet but I am still learning!
