@@ -1,0 +1,17 @@
+# Unix Shell 
+
+$ git init    # initialize local git repo
+$ git add <file> # Add Files to Index 
+$ git status # Check Status of Working Tree 
+$ git commit # Commit Changes in Index 
+$ git push # push to remote repo 
+$ git pull # pull latest from remote repo
+$ git clone # clone a repo to your local
+$ git rm --cached <file> # remove a file from the git staging area
+$ git add *.py # add all files with python file type 
+$ git add . # git all all files 
+$ git commit # then use the editor 
+$ git commit -m "message"
+$ touch .gitignore # create gitignore file 
+$ git merge <branch name>
+$ git push -u origin master # push to repo
