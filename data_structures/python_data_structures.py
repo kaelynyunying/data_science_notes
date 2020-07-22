@@ -23,3 +23,42 @@
 # List: It is similar to array with the exception that the data elements can be of different data types. You can have both numeric and string data in a python list.
 # Tuple: Tuples are similar to lists but they are immutable which means the values in a tuple cannot be modified they can only be read.
 # Dictionary: The dictionary contains Key-value pairs as its data elements.
+
+
+
+
+# ARRAYS
+
+# typecode
+# b	Represents signed integer of size 1 byte/td>
+# B	Represents unsigned integer of size 1 byte
+# c	Represents character of size 1 byte
+# i	Represents signed integer of size 2 bytes
+# I	Represents unsigned integer of size 2 bytes
+# f	Represents floating point of size 4 bytes
+# d	Represents floating point of size 8 bytes
+
+from array import *
+array1 = array('i', [10,20,30,40,50])
+
+# access array elements
+array1[0]
+
+# insertion operation
+array1.insert(1,60)
+
+# deletion operation
+array1.remove(40)
+
+# search operation
+array1.idex(40)
+
+# update operation
+array1[2] = 80
+
+# Dictionary
+dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
+del dict['Name']; # remove entry with key 'Name'
+dict.clear();     # remove all entries in dict
+del dict ;        # delete entire dictionary
+
